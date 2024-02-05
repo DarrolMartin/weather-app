@@ -1,6 +1,1 @@
-console.log('Hello, World!');
-
-
-button {
-    align-items: center;
-}
+console.log('Hello, World!')
