@@ -37,11 +37,12 @@ function displayWeather (data) {
 function runSearch(event) {
   event.preventDefault();
   let searchValue = searchInput.value;
-  console.log(searchValue);
+  // console.log(searchValue);
   // searchInput.value = "";
   searchWeather(searchValue);
   searchForecast(searchValue);
   // fetch(searchValue);
   // displayForecast(searchValue);
 }
+
 
