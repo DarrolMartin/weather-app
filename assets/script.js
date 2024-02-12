@@ -33,7 +33,7 @@ function displayWeather (data) {
   $("#currentWindSpeed").text(windSpeed);  
 
 }
-
+// triggers functions to search for current weather and forecast data
 function runSearch(event) {
   event.preventDefault();
   let searchValue = searchInput.value;
@@ -44,5 +44,7 @@ function runSearch(event) {
   // fetch(searchValue);
   // displayForecast(searchValue);
 }
+
+searchForm.addEventListener("submit", runSearch);
 
 
